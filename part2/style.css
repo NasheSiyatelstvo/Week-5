@@ -1,0 +1,87 @@
+.section1 h1 {
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 50px;
+    padding: 10px 20px;
+    margin-left: 60px;
+}
+.section1 {
+    background-color: rgba(188, 186, 183, 0.67);
+    display: flex;
+    justify-content: center;
+}
+.section2 h2 {
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 50px;
+    padding: 10px 20px;
+    margin-left: 60px;
+}
+.section2 {
+    background-color: rgba(212, 242, 136, 0.67);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.more {
+    width: 48%;
+    flex-grow: 1;
+    background-color: rgb(228, 180, 82);
+}
+/*.section3*/ h2 {
+    border: 1px;
+    display: flex; 
+    align-self:center;
+    
+}
+.section3 {
+    background-color: rgba(245, 245, 128, 0.67);
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 200%;
+    display: flex;
+    align-content: space-between;
+}
+.middle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.smallsections p {
+    border: 1px; 
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    width: 100px;
+    height: 20px;
+    
+    padding: 10px 20px;
+    margin: 10px;
+}
+.smallsections {
+    display: flex;
+    justify-content: center; 
+    align-self: self-end;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+.section5 p {
+    border: 1px; 
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(155, 146, 146);
+    padding: 10px 20px;
+    margin-left: 60px;
+}
+.section5 {
+    background-color: rgba(188, 186, 183, 0.67);
+    display: flex;
+    justify-content: space-around;
+}

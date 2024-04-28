@@ -1,0 +1,66 @@
+h1 {
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 500%;
+    background-color: rgb(242, 242, 224);
+    margin-top: 0%;
+    margin-bottom: 5.4%;
+}
+nav {
+    border: 1px;
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-style: oblique;
+    font-size: larger;
+    margin-top: -5%;
+    background-color: rgb(223, 223, 215);
+    margin-bottom: 5%;
+}
+a:link {
+    color: #5c6568;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 20px;
+    margin: 0%;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    transform: scale(1.1);
+}
+a:active {
+    color: green;
+}
+a:visited {
+    color: #5c6568;
+}
+img {
+    width: 40vw;
+    height: 40vw;
+}
+img:hover {
+    transform: scale(1.1); /* Увеличиваем изображение на 20% при наведении */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Добавляем тень при наведении */
+}
+.imgcontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(242, 242, 224);
+    flex-wrap: wrap;
+    margin-top: -4.5%;
+
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 223, 215);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
